@@ -5,5 +5,5 @@ setup(name='jkpypypi',
       description='dj App',
       author='Jelena',
       author_email='kocicjelena@gmail.com',
-	  url='https://github.com/kocicjelena/djangoongithub/'
+	  url='https://github.com/kocicjelena/py-pypi/'
      )

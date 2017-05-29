@@ -8,9 +8,16 @@ env:
   - TOXENV=py33
   - TOXENV=py34
 
-install: pip install tox
 
-script: tox
+
+before_install:
+  - sudo apt-get install python-dev libevent-dev
+install: 
+ - python setup.py install
+ - pip install tox
+
+script: 
+  - tox
 
 notifications:
   email: false

@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='app',
+setup(name='jkpypypi',
       version='1.0',
       description='dj App',
       author='Jelena',

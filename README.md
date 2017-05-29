@@ -1,2 +1,1 @@
-# djangoongithub
-django frame on github
+py+pypi

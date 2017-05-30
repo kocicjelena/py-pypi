@@ -21,11 +21,4 @@ script:
 
 notifications:
   email: false
-deploy:
-  provider: pypi
-  user: kocicjelena
-  password:
-    secure: 
-  on:
-    tags: true
-    branch: master
+

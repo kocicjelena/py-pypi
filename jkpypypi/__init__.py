@@ -1,4 +1,5 @@
-
+import socket
 def main():
-    """Entry point for the application script"""
-    print("Call your main application code here")
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.bind(('localhost', 3000))
+    print("Call")
